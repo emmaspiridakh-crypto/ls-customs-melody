@@ -17,7 +17,7 @@ TICKET_TYPES = {
         "prefix": "support",
     },
     "contact": {
-        "label": "Επικοινωνία Διοίκησης",
+        "label": "Επικοινωνία Με Ιδιοκτήτη",
         "role_id": config.ANOTATH_DIOIKISI_ROLE_ID,
         "emoji": config.EMOJI_CONTACT,
         "prefix": "dioikisi",
