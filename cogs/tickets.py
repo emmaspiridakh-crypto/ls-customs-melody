@@ -50,7 +50,7 @@ class TicketPanelView(discord.ui.LayoutView):
                 style=discord.ButtonStyle.green,
                 emoji=config.EMOJI_SUPPORT,
                 custom_id="ticket_open:support",
-            )
+            ),
         )
         row.add_item(
             discord.ui.Button(
@@ -58,7 +58,7 @@ class TicketPanelView(discord.ui.LayoutView):
                 style=discord.ButtonStyle.blurple,
                 emoji=config.EMOJI_CONTACT,
                 custom_id="ticket_open:contact",
-            )
+            ),
         )
         container.add_item(row)
 
