@@ -38,9 +38,8 @@ class TicketPanelView(discord.ui.LayoutView):
                 "# Ticket Panel\n"
                 "Πάτησε το κατάλληλο κουμπί ανάλογα με το λόγο επικοινωνίας σου.\n\n"
                 f"{config.EMOJI_SUPPORT} **Support** — για γενικά θέματα/βοήθεια\n"
-                f"{config.EMOJI_CONTACT} **Επικοινωνία Διοίκησης** — για σοβαρά θέματα"
+                f"{config.EMOJI_CONTACT} **Επικοινωνία με Ιδιοκτήτη** — για σοβαρά θέματα"
             ),
-            accessory=discord.ui.Thumbnail(media=config.TICKET_PANEL_THUMBNAIL),
         )
         container.add_item(section)
 
